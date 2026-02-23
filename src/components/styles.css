@@ -17,7 +17,7 @@
 
 .input_box:focus {
     outline: none;
-    box-shadow: 0 0 10px 1000px black;
+    box-shadow: 0 0 10px 1000px #1f4d7e;
 }
 
 .input_submit {
@@ -42,4 +42,11 @@
 .input_submit:active {
     transform: scale(0.8);
     box-shadow: 0 0 5px black;
+}
+
+.todos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
 }
